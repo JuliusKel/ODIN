@@ -1,0 +1,187 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+
+body {
+    margin: 0;
+    background: #eee;
+    background-color: #1F2937;
+    font-family: 'Roboto', arial;
+    display: flex;
+    flex-direction: column;
+  }
+  /*Header*/
+  .header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+  }
+  /*Links Rechts Sektion */
+  .headleft, .headright {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+  }
+
+  .logo {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+  .links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+  .hlink{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+
+  /*Hero */
+  .hero{
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7em 0;
+  }
+  /*Links Rechts Sektion */
+  .heroleft, .heroright{
+    display: flex;
+    align-items: center;
+    
+  }
+  .herohead{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+  }
+  .herotext{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+  }
+  .herobutton{
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 8px 35px;
+    margin-top: 10px;
+  }
+  .heroright{
+    border: 0;    
+    margin-right: 300px;
+    flex-shrink: 0;
+  }
+  .herospace{
+    color: #E5E7EB;
+    text-align: center;
+    justify-content: center;
+    background-color: #656a73;
+    padding: 130px 180px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+    
+  }
+  .heroleft{
+    margin-left: 290px;
+    margin-bottom: 50px;
+  }
+  /* INFO */
+
+  .info{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 7em 0;
+  }
+  .infotext{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .infosqares{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    
+  }
+  .infosqare{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #4f75f0;
+    padding: 50px;
+    margin: 20px;
+    
+  }
+  .infoinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+  }
+  .infosubtext{
+    font-size: 18px;
+    font-weight: 590;
+  }
+  /*QOTE */
+
+  .quote{
+    padding: 7em 0;
+    text-align: center;
+    background-color: #E5E7EB;
+  }
+  .quotetext{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+  }
+  .quotethor{
+    margin-top: 10px;
+    margin-left: 540px;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  /* call to action*/
+  .callta{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .calltasqare{
+    text-align: center;
+    border-radius: 30px;
+    width: 900px;
+    height: 60px;
+    display: fle;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 20px;
+  }
+
+
+
+
+
+
+
+  
